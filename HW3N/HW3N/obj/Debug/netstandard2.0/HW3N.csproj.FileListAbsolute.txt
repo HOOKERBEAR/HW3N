@@ -1,0 +1,17 @@
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\HW3N.deps.json
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\HW3N.dll
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\HW3N.csprojAssemblyReference.cache
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\Views\AddRecipe.xaml.g.cs
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\Views\EditRecipe.xaml.g.cs
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\HW3N.AssemblyInfoInputs.cache
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\HW3N.AssemblyInfo.cs
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\NUnit3.TestAdapter.dll
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\NUnit3.TestAdapter.pdb
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\nunit.engine.dll
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\nunit.engine.api.dll
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\HW3N.pdb
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\HW3N.dll
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\HW3N.pdb
+C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\obj\Debug\netstandard2.0\XamlC.stamp

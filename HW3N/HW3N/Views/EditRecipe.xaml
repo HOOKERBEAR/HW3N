@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="HW3N.Views.EditRecipe">
+
+    <StackLayout Spacing="10" Padding="15">
+        <Label Text="Edit Recipe" FontSize="Medium" />
+        <Label Text="Recipe Name"/>
+        <Entry Placeholder="Enter Your Recipe Name Here"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Label Text="Ingredients"/>
+        <Entry Placeholder="First Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Second Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Third Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Fourth Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Fifth Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Sixth Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Seventh Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Entry Placeholder="Eighth Ingredient"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Label Text="Recipe Instructions:"/>
+        <Entry Placeholder="Enter Your Recipe Instructions Here"
+               PlaceholderColor="LightGray"
+               Text="{Binding Name}"></Entry>
+        <Button Text="Submit Changes"/>
+
+
+    </StackLayout>
+
+</ContentPage>

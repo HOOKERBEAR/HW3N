@@ -1,0 +1,57 @@
+﻿using HW3N.Data;
+using HW3N.Services;
+using Prism.Commands;
+using Prism.Mvvm;
+using Prism.Navigation;
+using Prism.Services;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Xamarin.Forms;
+
+namespace HW3N.ViewModels
+{
+    public class MainPageViewModel : ViewModelBase
+    {
+        private readonly IDataService dataService;
+        private readonly INavigationService navigationService;
+        private readonly IPageDialogService pageDialogService;
+
+        public IEnumerable<Recipe> recipeList { get; set; }
+        public MainPageViewModel(INavigationService navigationService, IDataService dataService, IPageDialogService pageDialogService)
+            : base(navigationService)
+        {
+            Title = "Main Page";
+            this.navigationService = navigationService;
+            this.pageDialogService = pageDialogService;
+            //string[] array = new string[] { "1 cup flower", "1 cup sugar", "1 cup animal blood" };
+            //List<string> list= new List<string>();
+            //list.AddRange(array);
+            //Recipe recipe= new Recipe(1, "soup", list, "Mix ingredients, bake in the fires of hell");
+
+            //this.dataService = dataService ?? throw new ArgumentNullException(nameof(dataService));
+
+            //dataService.addRecipe(recipe);
+            recipeList = dataService.GetRecipes();
+
+        }
+        private Command addRecipe;
+        public Command AddRecipe => addRecipe ?? (addRecipe = new Command(async () =>
+        {
+            NavigationParameters Parameters = new NavigationParameters();
+            await TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.AddRecipe), Parameters, false, true).ConfigureAwait(false);
+        }));
+
+        private Command editRecipe;
+        public Command EditRecipe => editRecipe ?? (editRecipe = new Command(async () =>
+        {
+            NavigationParameters Parameters = new NavigationParameters();
+            await TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.EditRecipe), Parameters, false, true).ConfigureAwait(false);
+        }));
+
+
+
+    }
+}
