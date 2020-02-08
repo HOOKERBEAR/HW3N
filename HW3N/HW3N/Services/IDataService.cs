@@ -10,7 +10,6 @@ namespace HW3N.Services
         void addRecipe(Recipe recipe);
 
          IEnumerable<Recipe> GetRecipes();
-        //for testing, will not be used
 
     }
 }
