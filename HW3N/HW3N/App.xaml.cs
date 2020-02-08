@@ -33,7 +33,7 @@ namespace HW3N
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
             containerRegistry.RegisterForNavigation<AddRecipe, AddRecipeViewModel>();
             containerRegistry.RegisterForNavigation<EditRecipe, EditRecipeViewModel>();
-            containerRegistry.Register<IDataService, RecipeDatabase>();
+            containerRegistry.Register<IDataService, SQLiteDataService>();
         }
     }
 }
