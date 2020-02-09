@@ -31,9 +31,9 @@ namespace HW3N.Data
             {
                 this.Name = Name;
             }
-            if (IngredientID.Count == 0)
+            if (ingredientID.Count == 0)
             {
-                throw new Exception("If you're cooking, you need stuff to cook with!");
+                throw new Exception("You can't have <1 ingredients, dude!");
             }
             else
             {

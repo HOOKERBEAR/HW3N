@@ -14029,11 +14029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
       "projectName": "HW3N.UWP",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
       "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
+      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -14055,8 +14055,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }

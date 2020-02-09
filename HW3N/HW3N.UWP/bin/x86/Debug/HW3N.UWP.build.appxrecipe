@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>ENGR2UA8041PFL</Machine>
+    <Machine>ENGR2UA8041PFH</Machine>
     <WindowsUser>rusty.hermansen</WindowsUser>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetOsVersion>10.0</TargetOsVersion>
@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>31e6402e-0407-4419-a6c3-7c6d18576017</PackageIdentityName>
     <PackageIdentityPublisher>CN=BLagunas</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\HW3N.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\HW3N.UWP.exe">
       <PackagePath>entrypoint\HW3N.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\rusty.hermansen\.nuget\packages\dryioc.dll\4.0.7\lib\netstandard2.0\DryIoc.dll">
@@ -91,7 +91,7 @@
     <AppxPackagedFile Include="C:\Users\rusty.hermansen\.nuget\packages\xamarin.forms\4.4.0.991640\lib\uap10.0\Xamarin.Forms.Xaml.dll">
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\HW3N.dll">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N\bin\Debug\netstandard2.0\HW3N.dll">
       <PackagePath>HW3N.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Microsoft\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
@@ -112,46 +112,46 @@
     <AppxPackagedFile Include="C:\Users\rusty.hermansen\.nuget\packages\nunit3testadapter\3.16.1\build\net35\nunit.engine.api.dll">
       <PackagePath>nunit.engine.api.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\HW3N.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\HW3N.UWP.xr.xml">
       <PackagePath>HW3N.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Microsoft.UI.Xaml\DensityStyles\Compact.xbf">
       <PackagePath>Microsoft.UI.Xaml\DensityStyles\Compact.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.18362.0\\redist\Debug\x86\ucrtbased.dll">
@@ -163,10 +163,10 @@
     <AppxPackagedFile Include="C:\Users\rusty.hermansen\.nuget\packages\microsoft.ui.xaml\2.1.190606001\build\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>WinMetadata\Microsoft.UI.Xaml.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Core\HW3N.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\bin\x86\Debug\Core\HW3N.UWP.exe">
       <PackagePath>HW3N.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

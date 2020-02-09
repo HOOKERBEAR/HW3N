@@ -3929,11 +3929,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
+      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
       "projectName": "HW3N",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
+      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
       "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\obj\\",
+      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
