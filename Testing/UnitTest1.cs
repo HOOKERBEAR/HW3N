@@ -17,8 +17,13 @@ namespace Testing
         {
             var Expected = "Name is too short";
             string actual = null;
-            int[] array = new int[] { 1, 2, 3, 4 };
-            List<int> list = new List<int>();
+            Ingredients in1 = new Ingredients(1, "Eggs", 10, "Cups");
+            Ingredients in2 = new Ingredients(2, "Flour", 3, "Almonds");
+            Ingredients in3 = new Ingredients(3, "Baking Soda", 1000, "Teaspoons");
+            Ingredients in4 = new Ingredients(4, "Milk", 30, "Liters");
+
+            Ingredients[] array = new Ingredients[] { in1, in2, in3, in4 };
+            List<Ingredients> list = new List<Ingredients>();
             list.AddRange(array);
 
             try
@@ -38,8 +43,8 @@ namespace Testing
         {
             var Expected = "You can't have <1 ingredients, dude!";
             string actual = null;
-            int[] array = new int[] {};
-            List<int> list = new List<int>();
+            Ingredients[] array = new Ingredients[] {};
+            List<Ingredients> list = new List<Ingredients>();
             list.AddRange(array);
 
             try

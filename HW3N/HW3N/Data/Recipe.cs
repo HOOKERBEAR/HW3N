@@ -38,7 +38,7 @@ namespace HW3N.Data
             }
             if (ingredients.Count == 0)
             {
-                throw new Exception("If you're cooking, you need stuff to cook with!");
+                throw new Exception("You can't have <1 ingredients, dude!");
             }
             else
             {
