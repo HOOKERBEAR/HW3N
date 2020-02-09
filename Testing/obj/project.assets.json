@@ -6911,11 +6911,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\Testing\\Testing.csproj",
+      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\HW3N\\Testing\\Testing.csproj",
       "projectName": "Testing",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\Testing\\Testing.csproj",
+      "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\Testing\\Testing.csproj",
       "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\Testing\\obj\\",
+      "outputPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\Testing\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -6936,8 +6936,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }

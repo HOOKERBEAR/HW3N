@@ -3047,11 +3047,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
+      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
       "projectName": "HW3N.Android",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
+      "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
       "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\obj\\",
+      "outputPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -3072,8 +3072,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }
