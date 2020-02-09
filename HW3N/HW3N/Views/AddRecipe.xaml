@@ -16,13 +16,17 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-                 </Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
                     <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-        <Label Text="Add Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" />
+        <Label Text="Add Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
         <Label Text="Recipe Name" Grid.Row="1" Grid.Column="0" />
         <Entry Placeholder="Enter Your Recipe Name Here"
                PlaceholderColor="LightGray"
@@ -37,12 +41,13 @@
         <Entry Placeholder="Ingredient Unit (like cups, TSP)"
                PlaceholderColor="LightGray"
                Text="{Binding Name}" Grid.Row="4" Grid.Column="2"></Entry>
-        
-        <Label Text="Recipe Instructions:" Grid.Row="5" Grid.Column="0"/>
+         <Button Text="Add Ingredient" Grid.Row="4" Grid.Column="3"/>
+
+            <Label Text="Recipe Instructions:" Grid.Row="5" Grid.Column="0"/>
         <Entry Placeholder="Enter Your Recipe Instructions Here"
                PlaceholderColor="LightGray"
-               Text="{Binding Name}" Grid.Row="6" Grid.Column="0"></Entry>
-        <Button Text="Add Recipe" Grid.Row="7" Grid.Column="0"/>
+               Text="{Binding Name}" Grid.Row="6" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="4"></Entry>
+        <Button Text="Add Recipe" Grid.Row="10" Grid.Column="0"/>
            
         </Grid>
     </StackLayout>

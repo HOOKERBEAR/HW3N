@@ -5,7 +5,7 @@
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="HW3N.Views.EditRecipe">
 
- <StackLayout Spacing="10" Padding="15">
+    <StackLayout Spacing="10" Padding="15">
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="*" />
@@ -16,36 +16,40 @@
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
                 <RowDefinition Height="*" />
-                 </Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-        <Label Text="Edit Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
-        <Label Text="Recipe Name" Grid.Row="1" Grid.Column="0" />
-        <Entry Placeholder="Enter Your Recipe Name Here"
+            <Label Text="Edit Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+            <Label Text="Recipe Name" Grid.Row="1" Grid.Column="0" />
+            <Entry Placeholder="Enter Your Recipe Name Here"
                PlaceholderColor="LightGray"
-               Text="{Binding Name}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" ></Entry>
-        <Label Text="Ingredients" Grid.Row="3" Grid.Column="0"/>
-        <Entry Placeholder="Ingredient Name"
+               Text="{Binding Name}" Grid.Row="2" Grid.Column="0"></Entry>
+            <Label Text="Ingredients" Grid.Row="3" Grid.Column="0"/>
+            <Entry Placeholder="Ingredient Name"
                PlaceholderColor="LightGray"
                Text="{Binding Name}" Grid.Row="4" Grid.Column="0"></Entry>
-        <Entry Placeholder="Ingredient Amount"
+            <Entry Placeholder="Ingredient Amount"
                PlaceholderColor="LightGray"
                Text="{Binding Name}" Grid.Row="4" Grid.Column="1"></Entry>
-        <Entry Placeholder="Ingredient Unit (like cups, TSP)"
+            <Entry Placeholder="Ingredient Unit (like cups, TSP)"
                PlaceholderColor="LightGray"
                Text="{Binding Name}" Grid.Row="4" Grid.Column="2"></Entry>
-        <Button Text="Add Ingredient" Grid.Row="4" Grid.Column="3"></Button>
+            <Button Text="Add Ingredient" Grid.Row="4" Grid.Column="3"/>
 
             <Label Text="Recipe Instructions:" Grid.Row="5" Grid.Column="0"/>
-        <Entry Placeholder="Enter Your Recipe Instructions Here"
+            <Entry Placeholder="Enter Your Recipe Instructions Here"
                PlaceholderColor="LightGray"
-               Text="{Binding Name}" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" ></Entry>
-        <Button Text="Submit" Grid.Row="7" Grid.Column="0"/>
-           
+               Text="{Binding Name}" Grid.Row="6" Grid.Column="0" Grid.RowSpan="4" Grid.ColumnSpan="4"></Entry>
+            <Button Text="Submit" Grid.Row="10" Grid.Column="0"/>
+            <Button Text="Cancel" Grid.Row="10" Grid.Column="1"/>
+
         </Grid>
     </StackLayout>
 

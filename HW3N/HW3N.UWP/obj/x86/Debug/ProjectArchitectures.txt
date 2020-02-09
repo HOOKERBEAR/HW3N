@@ -1,1 +1,1 @@
-C:\Users\ammon.zerkle\source\repos\HW3N\HW3N\HW3N.UWP\HW3N.UWP.csproj;x86
+C:\Users\rusty.hermansen\source\repos\HOOKERBEAR\HW3N\HW3N\HW3N.UWP\HW3N.UWP.csproj;x86
