@@ -19,7 +19,7 @@ namespace HW3N.Data
         {
             this.Id = Id;
             this.Name = Name;
-            this.Unit = Unit;
+            this.Unit = Units;
             if (Amount < .01)
             {
                 throw new Exception("You can't have <1 ingredients, dude!");

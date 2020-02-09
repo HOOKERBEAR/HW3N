@@ -13,7 +13,6 @@ namespace HW3N.Views
         public MainPage()
         {
             InitializeComponent();
-            BindingContext = new MainPageViewModel();
         }
     }
 }

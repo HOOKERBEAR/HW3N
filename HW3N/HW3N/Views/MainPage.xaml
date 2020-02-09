@@ -10,7 +10,7 @@
         <Button Text="Add New Recipe" Command="{Binding AddRecipe}" ></Button>
         <Button Text="Edit Recipe" Command="{Binding EditRecipe}" ></Button>
 
-        <ListView x:Name="ReferencesNew" ItemsSource="{Binding recipeList}" ItemSelected="OnListViewItemSelected">
+        <ListView x:Name="ReferencesNew" ItemsSource="{Binding recipeList}">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>

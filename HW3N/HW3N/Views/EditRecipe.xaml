@@ -19,14 +19,15 @@
                  </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-        <Label Text="Edit Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" />
+        <Label Text="Edit Recipe" FontSize="Medium" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
         <Label Text="Recipe Name" Grid.Row="1" Grid.Column="0" />
         <Entry Placeholder="Enter Your Recipe Name Here"
                PlaceholderColor="LightGray"
-               Text="{Binding Name}" Grid.Row="2" Grid.Column="0"></Entry>
+               Text="{Binding Name}" Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" ></Entry>
         <Label Text="Ingredients" Grid.Row="3" Grid.Column="0"/>
         <Entry Placeholder="Ingredient Name"
                PlaceholderColor="LightGray"
@@ -37,11 +38,12 @@
         <Entry Placeholder="Ingredient Unit (like cups, TSP)"
                PlaceholderColor="LightGray"
                Text="{Binding Name}" Grid.Row="4" Grid.Column="2"></Entry>
-        
-        <Label Text="Recipe Instructions:" Grid.Row="5" Grid.Column="0"/>
+        <Button Text="Add Ingredient" Grid.Row="4" Grid.Column="3"></Button>
+
+            <Label Text="Recipe Instructions:" Grid.Row="5" Grid.Column="0"/>
         <Entry Placeholder="Enter Your Recipe Instructions Here"
                PlaceholderColor="LightGray"
-               Text="{Binding Name}" Grid.Row="6" Grid.Column="0"></Entry>
+               Text="{Binding Name}" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="4" ></Entry>
         <Button Text="Submit" Grid.Row="7" Grid.Column="0"/>
            
         </Grid>

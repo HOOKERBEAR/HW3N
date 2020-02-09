@@ -51,7 +51,7 @@ namespace HW3N.ViewModels
             await TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.EditRecipe), Parameters, false, true).ConfigureAwait(false);
         }));
 
-        void ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        private void OnListViewItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             NavigationParameters Parameters = new NavigationParameters("Stuff To Say");
             TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.RecipeDetailPage), Parameters, false, true).ConfigureAwait(false);
