@@ -36,7 +36,17 @@ namespace HW3N.ViewModels
 
             RecipeName = _recipe.Name;
             RecipeId = _recipe.Id;
+
+            Ingredients = dataService.GetIngredients(_recipe);
         }
+
+        private List<Ingredients> ingredients;
+        public List<Ingredients> Ingredients
+        {
+            get => ingredients;
+            set { SetProperty(ref ingredients, value); }
+        }
+
 
         private int recipeId;
         public int RecipeId

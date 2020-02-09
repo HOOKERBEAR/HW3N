@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using Xamarin.Essentials;
 using Xamarin.Forms;
 using Polly;
+using SQLiteNetExtensions.Extensions;
 
 namespace HW3N.Services
 {
@@ -30,7 +31,8 @@ namespace HW3N.Services
         public void addRecipe(Recipe recipe)
         {
             db.Insert(recipe);
-            
+            db.InsertAll(recipe.Ingredients, typeof(Ingredients));
+            db.UpdateWithChildren(recipe);
         }
 
         public IEnumerable<Recipe> GetRecipes()
@@ -38,10 +40,21 @@ namespace HW3N.Services
             return db.Table<Recipe>().ToList();
         }
 
-        public void Delete() {
+        public void DeleteRecipe(Recipe recipe)
+        {
 
-            db.DeleteAll<Recipe>();
+            db.Delete<Recipe>(recipe);
+            db.UpdateWithChildren(recipe);
         }
+
+        public void EditRecipe(Recipe recipe) {
+            db.Update(recipe);
+        }
+
+        public List<Ingredients> GetIngredients(Recipe recipe) {
+            return db.Query<Ingredients>($"Select * from Ingredients where Id = {recipe.Id}");
+        }
+
     }
 
 }

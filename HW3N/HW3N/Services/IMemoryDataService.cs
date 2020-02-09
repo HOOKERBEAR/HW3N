@@ -1,5 +1,4 @@
 ﻿using HW3N.Data;
-using HW3N.Data;
 using System;
 using System.Collections.Generic;
 using System.Text;

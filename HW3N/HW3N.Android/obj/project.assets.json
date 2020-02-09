@@ -1044,7 +1044,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -3029,6 +3031,7 @@
       "NUnit3TestAdapter >= 3.16.1",
       "Polly >= 7.2.0",
       "Prism.DryIoc.Forms >= 7.2.0.1422",
+      "Prism.Forms >= 7.2.0.1422",
       "SQLiteNetExtensions >= 2.1.0",
       "Xamarin.Android.Support.CustomTabs >= 28.0.0.3",
       "Xamarin.Android.Support.Design >= 28.0.0.3",
@@ -3041,24 +3044,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rusty.hermansen\\.nuget\\packages\\": {},
+    "C:\\Users\\ammon.zerkle\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
+      "projectUniqueName": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
       "projectName": "HW3N.Android",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
-      "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N.Android\\obj\\",
+      "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.Android\\HW3N.Android.csproj",
+      "packagesPath": "C:\\Users\\ammon.zerkle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rusty.hermansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ammon.zerkle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -3072,8 +3075,8 @@
       "frameworks": {
         "monoandroid90": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HOOKERBEAR\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }
@@ -3105,6 +3108,10 @@
             "version": "[7.2.0, )"
           },
           "Prism.DryIoc.Forms": {
+            "target": "Package",
+            "version": "[7.2.0.1422, )"
+          },
+          "Prism.Forms": {
             "target": "Package",
             "version": "[7.2.0.1422, )"
           },
