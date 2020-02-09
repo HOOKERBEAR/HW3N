@@ -50,13 +50,39 @@
               "target": "Package",
               "version": "[2.0.3, )"
             },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.16.1, )"
+            },
+            "Polly": {
+              "target": "Package",
+              "version": "[7.2.0, )"
+            },
             "Prism.DryIoc.Forms": {
               "target": "Package",
               "version": "[7.2.0.1422, )"
             },
+            "SQLiteNetExtensions": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Xamarin.Android.Support.CustomTabs": {
+              "target": "Package",
+              "version": "[28.0.0.3, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[4.4.0.991640, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.6.292, )"
             }
           }
         }

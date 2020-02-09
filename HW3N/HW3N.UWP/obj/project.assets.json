@@ -272,7 +272,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -464,7 +470,7 @@
       "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.13": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         },
         "runtimeTargets": {
           "runtimes/win10-arm/native/e_sqlite3.dll": {
@@ -995,7 +1001,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -1434,7 +1446,7 @@
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -1945,7 +1957,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -2415,7 +2433,7 @@
           "runtimes/win10-arm/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -2970,7 +2988,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -3437,7 +3461,7 @@
       "SQLitePCLRaw.lib.e_sqlite3.v140/1.1.13": {
         "type": "package",
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -3989,7 +4013,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -4428,7 +4458,7 @@
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -4939,7 +4969,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -5409,7 +5445,7 @@
           "runtimes/win10-x64/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -5964,7 +6000,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -6403,7 +6445,7 @@
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -6914,7 +6956,13 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
+        }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package",
+        "build": {
+          "build/net35/NUnit3TestAdapter.props": {}
         }
       },
       "Polly/7.2.0": {
@@ -7384,7 +7432,7 @@
           "runtimes/win10-x86/native/e_sqlite3.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/SQLitePCLRaw.lib.e_sqlite3.v140.targets": {}
         }
       },
       "SQLitePCLRaw.provider.e_sqlite3.uwp10/1.1.13": {
@@ -8308,6 +8356,28 @@
         "lib/netstandard2.0/nunit.framework.xml",
         "nunit.3.12.0.nupkg.sha512",
         "nunit.nuspec"
+      ]
+    },
+    "NUnit3TestAdapter/3.16.1": {
+      "sha512": "wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
+      "type": "package",
+      "path": "nunit3testadapter/3.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.16.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
       ]
     },
     "Polly/7.2.0": {
@@ -13942,8 +14012,13 @@
       "HW3N >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "NETStandard.Library >= 2.0.3",
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.16.1",
+      "Polly >= 7.2.0",
       "Prism.DryIoc.Forms >= 7.2.0.1422",
-      "Xamarin.Forms >= 4.4.0.991640"
+      "SQLiteNetExtensions >= 2.1.0",
+      "Xamarin.Forms >= 4.4.0.991640",
+      "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
@@ -13998,13 +14073,35 @@
             "target": "Package",
             "version": "[2.0.3, )"
           },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.16.1, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.0, )"
+          },
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[7.2.0.1422, )"
           },
+          "SQLiteNetExtensions": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.4.0.991640, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.6.292, )"
           }
         },
         "imports": [
@@ -14037,5 +14134,17 @@
         "#import": []
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NUnit3TestAdapter 3.16.1' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework 'UAP,Version=v10.0.16299'. This package may not be fully compatible with your project.",
+      "libraryId": "NUnit3TestAdapter",
+      "targetGraphs": [
+        "UAP,Version=v10.0.16299"
+      ]
+    }
+  ]
 }
