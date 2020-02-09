@@ -37,6 +37,11 @@ namespace HW3N.Services
         {
             return db.Table<Recipe>().ToList();
         }
+
+        public void Delete() {
+
+            db.DeleteAll<Recipe>();
+        }
     }
 
 }

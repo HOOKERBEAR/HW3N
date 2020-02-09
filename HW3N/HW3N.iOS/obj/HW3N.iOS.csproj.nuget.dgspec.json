@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj": {}
+    "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj": {
+    "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj",
+        "projectUniqueName": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj",
         "projectName": "HW3N.iOS",
-        "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj",
-        "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\obj\\",
+        "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\HW3N.iOS.csproj",
+        "packagesPath": "C:\\Users\\ammon.zerkle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.iOS\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\rusty.hermansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammon.zerkle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "xamarinios10": {
             "projectReferences": {
-              "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-                "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+              "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+                "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
               }
             }
           }
@@ -73,21 +73,21 @@
         }
       }
     },
-    "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+    "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
+        "projectUniqueName": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
         "projectName": "HW3N",
-        "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
-        "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\obj\\",
+        "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj",
+        "packagesPath": "C:\\Users\\ammon.zerkle\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\rusty.hermansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammon.zerkle\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],

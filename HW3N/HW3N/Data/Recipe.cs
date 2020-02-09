@@ -12,15 +12,20 @@ namespace HW3N.Data
         public Recipe()
         {
             this.Id = 1;
-            this.Name = "cake";
+            this.Name = "cakes";
 
-            int[] array = new int[] { 1, 2, 3, 4 };
-            List<int> list = new List<int>();
+            Ingredients in1 = new Ingredients(1, "Eggs", 10, "Cups");
+            Ingredients in2 = new Ingredients(2, "Flour", 3, "Almonds");
+            Ingredients in3 = new Ingredients(3, "Baking Soda", 1000, "Teaspoons");
+            Ingredients in4 = new Ingredients(4, "Milk", 30, "Liters");
+
+            Ingredients[] array = new Ingredients[] { in1, in2, in3, in4 };
+            List<Ingredients> list = new List<Ingredients>();
             list.AddRange(array);
-            this.IngredientID = list;
+            this.Ingredients = list;
             this.Instructions = "bake 9000 degrees";
         }
-        public Recipe(int Id, string Name, List<int> ingredientID, string Instructions)
+        public Recipe(int Id, string Name, List<Ingredients> ingredients, string Instructions)
         {
             this.Id = Id;
             if (Name.Length < 5)
@@ -31,13 +36,13 @@ namespace HW3N.Data
             {
                 this.Name = Name;
             }
-            if (IngredientID.Count == 0)
+            if (ingredients.Count == 0)
             {
                 throw new Exception("If you're cooking, you need stuff to cook with!");
             }
             else
             {
-                this.IngredientID = ingredientID;
+                this.Ingredients = ingredients;
             }
 
             this.Instructions = Instructions;
@@ -51,6 +56,6 @@ namespace HW3N.Data
         
         public string Instructions { get; set; }
         [OneToMany(CascadeOperations=CascadeOperation.All)]
-        public List<int> IngredientID { get; set; }
+        public List<Ingredients> Ingredients { get; set; }
     }
 }

@@ -11,5 +11,7 @@ namespace HW3N.Services
 
          IEnumerable<Recipe> GetRecipes();
 
+        void Delete();
+
     }
 }

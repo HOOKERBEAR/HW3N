@@ -10,6 +10,25 @@
         <Button Text="Add New Recipe" Command="{Binding AddRecipe}" ></Button>
         <Button Text="Edit Recipe" Command="{Binding EditRecipe}" ></Button>
 
+        <ListView x:Name="ReferencesNew" ItemsSource="{Binding recipeList}" ItemSelected="OnListViewItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout BackgroundColor="#eee"
+                        Orientation="Vertical">
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Id}"
+                                TextColor="#f35e20" />
+                                <Label Text="{Binding Name}"
+                                TextColor="#503026" />
+                            </StackLayout>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+       
+
     </StackLayout>
 
 </ContentPage>

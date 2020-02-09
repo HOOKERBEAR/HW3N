@@ -29,11 +29,11 @@ namespace HW3N.ViewModels
             //string[] array = new string[] { "1 cup flower", "1 cup sugar", "1 cup animal blood" };
             //List<string> list= new List<string>();
             //list.AddRange(array);
-            //Recipe recipe= new Recipe(1, "soup", list, "Mix ingredients, bake in the fires of hell");
+            Recipe recipe= new Recipe();
 
-            //this.dataService = dataService ?? throw new ArgumentNullException(nameof(dataService));
+            this.dataService = dataService ?? throw new ArgumentNullException(nameof(dataService));
 
-            //dataService.addRecipe(recipe);
+            dataService.addRecipe(recipe);
             recipeList = dataService.GetRecipes();
 
         }
@@ -50,6 +50,12 @@ namespace HW3N.ViewModels
             NavigationParameters Parameters = new NavigationParameters();
             await TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.EditRecipe), Parameters, false, true).ConfigureAwait(false);
         }));
+
+        void ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            NavigationParameters Parameters = new NavigationParameters("Stuff To Say");
+            TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.RecipeDetailPage), Parameters, false, true).ConfigureAwait(false);
+        }
 
 
 

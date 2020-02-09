@@ -7772,7 +7772,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -13947,18 +13947,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rusty.hermansen\\.nuget\\packages\\": {},
+    "C:\\Users\\ammon.zerkle\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
       "projectName": "HW3N.UWP",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
-      "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
+      "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "packagesPath": "C:\\Users\\ammon.zerkle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -13966,7 +13966,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rusty.hermansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ammon.zerkle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -13980,8 +13980,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }
