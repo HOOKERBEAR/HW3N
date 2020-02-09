@@ -34,6 +34,7 @@ namespace HW3N
             containerRegistry.RegisterForNavigation<AddRecipe, AddRecipeViewModel>();
             containerRegistry.RegisterForNavigation<EditRecipe, EditRecipeViewModel>();
             containerRegistry.Register<IDataService, SQLiteDataService>();
+            containerRegistry.RegisterForNavigation<RecipeDetailPage, RecipeDetailPageViewModel>();
         }
     }
 }

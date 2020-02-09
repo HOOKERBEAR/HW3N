@@ -16,7 +16,10 @@ namespace HW3N.Services
             Recipes.Add(recipe);
         }
 
-     
+        public void Delete()
+        {
+            throw new NotImplementedException();
+        }
 
         public IEnumerable<Recipe> GetRecipes()
         {
