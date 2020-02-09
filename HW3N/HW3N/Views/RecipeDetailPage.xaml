@@ -8,7 +8,12 @@
 
     <StackLayout>
 
-        <Label Text="YOu have moved to the Recipe Detail Page" />
+        <StackLayout Orientation="Horizontal">
+            <Label Text="{Binding RecipeId}"
+                                TextColor="#f35e20" />
+            <Label Text="{Binding RecipeName}"
+                                TextColor="#503026" />
+        </StackLayout>
 
 
 

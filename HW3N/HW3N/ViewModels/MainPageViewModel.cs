@@ -57,6 +57,18 @@ namespace HW3N.ViewModels
             TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.RecipeDetailPage), Parameters, false, true).ConfigureAwait(false);
         }
 
+        private DelegateCommand<Recipe> itemTappedCommand;
+
+        public DelegateCommand<Recipe> ItemTappedCommand => itemTappedCommand ?? (itemTappedCommand = new DelegateCommand<Recipe>(ExecuteItemTappedCommand));
+
+        public void ExecuteItemTappedCommand(Recipe selectedRecipe) 
+        {
+            NavigationParameters Parameters = new NavigationParameters();
+            Parameters.Add("recipe", selectedRecipe);
+            TestableNavigation.TestableNavigateAsync(NavigationService, nameof(HW3N.Views.RecipeDetailPage), Parameters, false, true).ConfigureAwait(false);
+
+        }
+
 
 
     }

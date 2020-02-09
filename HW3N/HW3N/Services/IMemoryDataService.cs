@@ -11,6 +11,13 @@ namespace HW3N.Services
     class IMemoryDataService : IDataService
     {
         public List<Recipe> Recipes;
+
+        public IMemoryDataService()
+        {
+            Recipes = new List<Recipe>();
+        }
+
+
         public void addRecipe(Recipe recipe)
         {
             Recipes.Add(recipe);
