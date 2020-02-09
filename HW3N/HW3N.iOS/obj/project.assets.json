@@ -66,8 +66,11 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
         }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package"
       },
       "Polly/7.2.0": {
         "type": "package",
@@ -416,8 +419,11 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
         }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package"
       },
       "Polly/7.2.0": {
         "type": "package",
@@ -766,8 +772,11 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
         }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package"
       },
       "Polly/7.2.0": {
         "type": "package",
@@ -1116,8 +1125,11 @@
           "lib/netstandard2.0/nunit.framework.dll": {}
         },
         "build": {
-          "build/_._": {}
+          "build/NUnit.props": {}
         }
+      },
+      "NUnit3TestAdapter/3.16.1": {
+        "type": "package"
       },
       "Polly/7.2.0": {
         "type": "package",
@@ -1925,6 +1937,28 @@
         "nunit.nuspec"
       ]
     },
+    "NUnit3TestAdapter/3.16.1": {
+      "sha512": "wKuxi7G9Gs2I9gnckwtMVzbPIy7vkNj+FafrmQPaYCUguT+se5kmzI3XwsVCXEalWk9pSYZW7roBkNu4ogn3DA==",
+      "type": "package",
+      "path": "nunit3testadapter/3.16.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/net35/NUnit3.TestAdapter.dll",
+        "build/net35/NUnit3.TestAdapter.pdb",
+        "build/net35/NUnit3TestAdapter.props",
+        "build/net35/nunit.engine.api.dll",
+        "build/net35/nunit.engine.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.dll",
+        "build/netcoreapp2.1/NUnit3.TestAdapter.pdb",
+        "build/netcoreapp2.1/NUnit3TestAdapter.props",
+        "build/netcoreapp2.1/nunit.engine.api.dll",
+        "build/netcoreapp2.1/nunit.engine.dll",
+        "nunit3testadapter.3.16.1.nupkg.sha512",
+        "nunit3testadapter.nuspec"
+      ]
+    },
     "Polly/7.2.0": {
       "sha512": "fbtSRyqVSd5AS7O4Pm2Mnw7zKKJk7Z3rOfNnKSTfPkTxM8Z1JJFZzzjqLAOTG6AyUkormSWMO2AhdlygF/384Q==",
       "type": "package",
@@ -2538,8 +2572,13 @@
       "HW3N >= 1.0.0",
       "Microsoft.NETCore.UniversalWindowsPlatform >= 6.2.9",
       "NETStandard.Library >= 2.0.3",
+      "NUnit >= 3.12.0",
+      "NUnit3TestAdapter >= 3.16.1",
+      "Polly >= 7.2.0",
       "Prism.DryIoc.Forms >= 7.2.0.1422",
-      "Xamarin.Forms >= 4.4.0.991640"
+      "SQLiteNetExtensions >= 2.1.0",
+      "Xamarin.Forms >= 4.4.0.991640",
+      "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
@@ -2592,13 +2631,35 @@
             "target": "Package",
             "version": "[2.0.3, )"
           },
+          "NUnit": {
+            "target": "Package",
+            "version": "[3.12.0, )"
+          },
+          "NUnit3TestAdapter": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.16.1, )"
+          },
+          "Polly": {
+            "target": "Package",
+            "version": "[7.2.0, )"
+          },
           "Prism.DryIoc.Forms": {
             "target": "Package",
             "version": "[7.2.0.1422, )"
           },
+          "SQLiteNetExtensions": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[4.4.0.991640, )"
+          },
+          "sqlite-net-pcl": {
+            "target": "Package",
+            "version": "[1.6.292, )"
           }
         }
       }
