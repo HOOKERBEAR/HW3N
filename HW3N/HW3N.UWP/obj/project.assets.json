@@ -715,7 +715,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -1671,7 +1673,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -2702,7 +2706,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -3727,7 +3733,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -4683,7 +4691,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -5714,7 +5724,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -6670,7 +6682,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -7701,7 +7715,9 @@
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.2.9",
           "NUnit": "3.12.0",
           "Polly": "7.2.0",
+          "Prism.Core": "7.2.0.1422",
           "Prism.DryIoc.Forms": "7.2.0.1422",
+          "Prism.Forms": "7.2.0.1422",
           "SQLiteNetExtensions": "2.1.0",
           "Xamarin.Essentials": "1.3.1",
           "Xamarin.Forms": "4.4.0.991640",
@@ -7820,7 +7836,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/2.1.0": {
-      "sha512": "GmkKfoyerqmsHMn7OZj0AKpcBabD+GaafqphvX2Mw406IwiJRy1pKcKqdCfKJfYmkRyJ6+e+RaUylgdJoDa1jQ==",
+      "sha512": "ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
       "type": "package",
       "path": "microsoft.netcore.platforms/2.1.0",
       "files": [
@@ -14016,24 +14032,25 @@
       "NUnit3TestAdapter >= 3.16.1",
       "Polly >= 7.2.0",
       "Prism.DryIoc.Forms >= 7.2.0.1422",
+      "Prism.Forms >= 7.2.0.1422",
       "SQLiteNetExtensions >= 2.1.0",
       "Xamarin.Forms >= 4.4.0.991640",
       "sqlite-net-pcl >= 1.6.292"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rusty.hermansen\\.nuget\\packages\\": {},
+    "C:\\Users\\ammon.zerkle\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "projectUniqueName": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
       "projectName": "HW3N.UWP",
-      "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
-      "packagesPath": "C:\\Users\\rusty.hermansen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
+      "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\HW3N.UWP.csproj",
+      "packagesPath": "C:\\Users\\ammon.zerkle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -14041,7 +14058,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\rusty.hermansen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ammon.zerkle\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -14055,8 +14072,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
-              "projectPath": "C:\\Users\\rusty.hermansen\\source\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
+            "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj": {
+              "projectPath": "C:\\Users\\ammon.zerkle\\source\\repos\\HW3N\\HW3N\\HW3N\\HW3N.csproj"
             }
           }
         }
@@ -14088,6 +14105,10 @@
             "version": "[7.2.0, )"
           },
           "Prism.DryIoc.Forms": {
+            "target": "Package",
+            "version": "[7.2.0.1422, )"
+          },
+          "Prism.Forms": {
             "target": "Package",
             "version": "[7.2.0.1422, )"
           },
